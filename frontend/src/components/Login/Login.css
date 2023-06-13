@@ -71,3 +71,18 @@
   color: #4A5568;
   /* Cor desejada para o placeholder */
 }
+
+@media screen and (min-width: 720px) {
+  .section-main {
+    border: 1px solid #4A5568;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 60vh;
+    min-width: 30%;
+    background-color: #319795;
+    position: relative;
+      /* border: 1px solid red; */
+  }
+}

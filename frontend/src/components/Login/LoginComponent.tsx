@@ -8,7 +8,7 @@ interface DadosLogin {
   senha: string;
 }
 
-export const Login = () => {
+export const Login: React.FC = () => {
   const [login, setLogin] = React.useState<DadosLogin>({
     nome: '',
     email: '',
